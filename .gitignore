@@ -1,0 +1,111 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+tfplan
+.terraform.lock.hcl
+
+# SSH Keys - NEVER commit these!
+*.pem
+*.key
+*_rsa
+*_rsa.pub
+*.ppk
+id_rsa
+id_rsa.pub
+azure_lab_key
+azure_lab_key.pub
+.ssh/
+
+# Azure
+.azure/
+
+# Backend configuration with sensitive data
+backend-config.txt
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+*.local
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+
+# Security scan results
+reports/
+*.sarif
+trivy-*.json
+checkov-*.json
+
+# Cost estimation results
+infracost-*.json
+
+# Credentials and secrets
+secrets/
+credentials/
+*.credentials
+*.secret
+
+# Personal notes
+notes.txt
+TODO.txt
+NOTES.md
+
+# Azure CLI
+.azure/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+
+# Node
+node_modules/
+package-lock.json
+yarn.lock
+
+# Any file with 'secret' in the name
+*secret*
+*SECRET*
+*password*
+*PASSWORD*
